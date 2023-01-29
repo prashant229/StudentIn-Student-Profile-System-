@@ -1,0 +1,51 @@
+.profCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 208, 208);
+}
+.outerWrap{
+    position: relative;
+    padding: 2rem;
+    display: none;
+    flex-direction: column;
+    margin: 3rem;
+    border-radius: 10px;
+    background-color: white;
+}
+.nameandimg{
+    display: flex;
+
+    
+}
+.nameandimg .name h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+div .nameandimg .portLInk {
+    font-size: 0.6rem;
+}
+.img_a img{
+    height: 100px;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.projects ,.achievements ,.skills_tt{
+    margin-left: 1rem;
+    color: rgb(98, 96, 96);
+}
+
+.cros-button img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.cros-button img:hover {
+    background-color: rgba(235, 232, 232, 0.435);
+}

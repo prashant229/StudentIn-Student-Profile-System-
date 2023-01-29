@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.box{
+    height: 60vh;
+    width: 40vw;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 6px rgb(201, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+
+}

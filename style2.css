@@ -1,0 +1,115 @@
+.sublist {
+    z-index: 3;
+}
+.jacket {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    box-shadow: 2px 2px 7px 6px rgb(201, 200, 200);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.left ul li {
+    padding: 1rem;
+    margin-right: 1rem;
+    list-style-type: none;
+}
+.left ul li:hover{
+    background-color: rgb(208, 203, 203);
+}
+
+.list_head {
+    padding :1.2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(12, 80, 123);
+    text-shadow: #FC0 1px 0 10px;
+}
+.listProfile{
+    box-shadow: 2px 2px 7px 6px rgb(201, 200, 200);
+    display: flex;
+    height: 170px;
+    padding: 20px;
+    transition: box-shadow 200ms ease-out;
+    cursor: pointer;
+    transition: transform 100ms ease-out;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+.profwrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+}
+.listProfile:hover{
+    box-shadow: 2px 2px 7px 6px rgb(177, 181, 199);
+    transform: scale(1.04);
+}
+.listProfile img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 1.3rem;
+   
+}
+.listProfile .info_t{
+    margin-top: 1.3rem;
+}
+.skills , .section {
+    font-size: 0.8rem;
+    color: rgb(98, 96, 96);
+    margin:  10px 0;
+}
+.knowMore {
+    font-size: 0.7rem;
+    color: rgb(15, 66, 78);
+    margin:  10px 0;
+
+}
+.filters_applied{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:1rem;
+    margin:0.5rem;
+    box-shadow: 2px 2px 2px  rgb(163, 161, 161);
+    border-left: 2px solid rgb(204, 202, 202);
+    margin-top: 0;
+}
+.head_a {
+    padding-left:3rem ;
+    margin:0.5rem;
+    margin-bottom: 0;
+    color:rgb(112, 68, 1);
+    border-left: 2px solid rgb(163, 161, 161);
+}
+.subfield {
+    display: flex;
+    align-items: flex-end;
+}
+.filters_applied h2 {
+    color: rgb(1, 95, 136);
+}
+.filters_applied h3 {
+    color: rgb(0, 179, 255);
+    margin-left: 1.5rem;
+}
+.overlay {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(212, 208, 208, 0.221);
+    height: 100vh;
+    width: 100vw;
+    z-index: 5;
+}
